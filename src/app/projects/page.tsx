@@ -7,7 +7,7 @@ import React from 'react'
 const Page = () => {
   return (
     <div
-    style={{backgroundImage: "url(/mountains.jpg)"}}
+    style={{backgroundImage: "url(/Mountains.jpg)"}}
      className='w-screen min-h-screen flex items-center justify-center bg-center bg-cover '>
       <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 max-w-[90%] max-h-[90%] mx-auto mt-20'>
         {Projects.map((project, index) => (

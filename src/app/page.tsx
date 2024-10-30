@@ -17,8 +17,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-gray-300 hidden md:block">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-            cumque id eum ducimus animi iusto min
+          Welcome to my portfolio! I am a passionate frontend developer dedicated to building responsive and visually stunning websites. Explore my work and skills, and lets create something amazing together.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
