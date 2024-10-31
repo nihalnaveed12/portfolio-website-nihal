@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex absolute bottom-14 z-[20] right-4 flex-col md:hidden gap-4">
+      <div className="flex absolute bottom-20 z-[20] right-4 flex-col md:hidden gap-4">
         <Link
           href="/skills"
           className="rounded-[20px] bg-blue-500 hover:bg-blue-400  px-[10px] text-center py-2 text-md text-white w-[120px]"

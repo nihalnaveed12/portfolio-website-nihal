@@ -23,7 +23,7 @@ const ProjectCard = ({ image, title, text , link}: Props) => {
   return (
     <div
     onClick={handleFlip}
-    className='md:w-[460px] md:h-[280px] w-[300px] h-[200px] rounded-md cursor-pointer '>
+    className='md:w-[350px] md:h-[200px] sm:w-[250px] sm:h-[150px] lg:w-[460px] lg:h-[280px] w-[160px] h-[100px] rounded-md cursor-pointer '>
         <motion.div
         className='flip-card-inner w-full h-full'
         initial={false}
@@ -43,10 +43,10 @@ const ProjectCard = ({ image, title, text , link}: Props) => {
             <div
             style={{backgroundImage: `url(${image})`}}
             className='w-full h-full group relative flip-card-back bg-cover bg-center text-white rounded-lg p-4'>
-                    <div  className='absolute inset-0 w-full h-full rounded-md bg-black opacity-50 z-[-1]'/>
+                    <div  className='absolute inset-0  rounded-md bg-black opacity-50 z-[-1] w-full h-full'/>
                   <div className='flex flex-col gap-20 py-3 z-[30]'>
-                    <h1 className='text-whote text-2xl font-semibold'>{title}</h1>
-                    <p className='text-gray-200 text-[20px]'>
+                    <h1 className='text-whote sm:text-2xl text-md sm:font-semibold '>{title}</h1>
+                    <p className='text-gray-200 text-[20px] hidden lg:block'>
                         {text}
                     </p>
                   </div>
