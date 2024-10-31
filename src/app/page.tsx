@@ -17,7 +17,10 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-gray-300 hidden md:block">
-          Welcome to my portfolio! I am a passionate frontend developer dedicated to building responsive and visually stunning websites. Explore my work and skills, and lets create something amazing together.
+            Welcome to my portfolio! I am a passionate frontend developer
+            dedicated to building responsive and visually stunning websites.
+            Explore my work and skills, and lets create something amazing
+            together.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
@@ -35,29 +38,29 @@ export default function Home() {
             <Link
               href="/contact"
               className="rounded-[20px] hover:bg-blue-400  px-5 py-3 text-lg text-white max-w-[200px] border"
-          >
+            >
               Contact Me
             </Link>
           </div>
         </div>
       </div>
 
-      <div className="flex absolute bottom-10 z-[20] right-5 flex-col md:hidden gap-5">
+      <div className="flex absolute bottom-14 z-[20] right-4 flex-col md:hidden gap-4">
         <Link
           href="/skills"
-          className="rounded-[20px] bg-blue-500 hover:bg-blue-400  px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px] bg-blue-500 hover:bg-blue-400  px-[10px] text-center py-2 text-md text-white w-[120px]"
         >
           Learn more
         </Link>
         <Link
           href="/projects"
-          className="rounded-[20px] bg-blue-500 hover:bg-blue-400  px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px] bg-blue-500 hover:bg-blue-400  px-[10px] text-center py-2 text-md text-white w-[120px]"
         >
           My Projects
         </Link>
         <Link
           href="/contact"
-          className="rounded-[20px] hover:bg-blue-400  px-5 py-3 text-lg text-white max-w-[200px] border"
+          className="rounded-[20px] bg-blue-500 hover:bg-blue-400  px-[10px] text-center py-2 text-md text-white w-[120px]"
         >
           Contact Me
         </Link>
